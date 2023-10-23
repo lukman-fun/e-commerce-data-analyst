@@ -11,7 +11,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # LOAD TRANSACTION DATASETS
 datetime_columns = ['order_approved_at', 'order_delivered_carrier_date', 'order_delivered_customer_date', 'order_estimated_delivery_date', 'order_purchase_timestamp', 'shipping_limit_date']
-all_df = pd.read_csv('../datasets/all_data.csv')
+all_df = pd.read_csv('all_data.csv')
 all_df.sort_values(by='order_approved_at', inplace=True)
 all_df.reset_index(inplace=True)
 
@@ -19,7 +19,7 @@ for column in datetime_columns:
     all_df[column] = pd.to_datetime(all_df[column])
 
 # LOAD GEOLOCATION DATASETS
-geolocations_df = pd.read_csv('../datasets/customer_geo.csv')
+geolocations_df = pd.read_csv('customer_geo.csv')
 geolocations_df.drop_duplicates(subset='customer_unique_id')
 
 # MIN & MAX DATE

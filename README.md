@@ -3,8 +3,7 @@
 
 ## Directory Structur
 
-- **/datasets**: Berisi dataset dalam bentuk .csv .
-- **/streamlit**: Berisi file main.py yang digunakan untuk dashboard streamlit.
+- **/dashboard**: Berisi file main.py yang digunakan untuk dashboard streamlit.
 - **Submission_data_Analyst.ipynb**: File berisi code untuk melakukan analisa data.
 
 ## Installation
@@ -18,12 +17,12 @@
 2. Install Pustaka:
 
     ```shell
-    cd ./streamlist
+    cd ./dashboard
     pip install -r requirements.txt
     ```
 
 ## Usage
-1. Masih di directory ./streamlist:
+1. Masih di directory ./dashboard:
 
     ```shell
     streamlit run main.py
