@@ -12,12 +12,11 @@
 2. Install Pustaka:
 
     ```shell
-    cd ./dashboard
     pip install -r requirements.txt
     ```
 
 ## Usage
-1. Masih di directory ./dashboard:
+1. Jalankan streamlit
 
     ```shell
     streamlit run main.py
