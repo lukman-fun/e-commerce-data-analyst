@@ -1,11 +1,6 @@
 # Submission Dicoding "Belajar Data Analytics dengan Python - E-Commerce Dataset"
 
 
-## Directory Structur
-
-- **/dashboard**: Berisi file main.py yang digunakan untuk dashboard streamlit.
-- **Submission_data_Analyst.ipynb**: File berisi code untuk melakukan analisa data.
-
 ## Installation
 
 1. Clone repository:
