@@ -21,4 +21,4 @@
     ```shell
     streamlit run main.py
     ```
-    Atau bisa kunjungi website ini [Demo Submission E-Commerce Data Analyst](https://brazilian-commerce.streamlit.app/)
+    Atau bisa kunjungi website ini [Demo Submission E-Commerce Data Analyst](https://brazillian-commerce.streamlit.app/)
