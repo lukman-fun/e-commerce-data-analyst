@@ -236,19 +236,3 @@ with tab2:
     plt.xticks(fontsize=10)
 
     st.pyplot(fig)
-
-# GEOLOCATION
-st.subheader("Customer Geolocation")
-
-fig, ax = plt.subplots(figsize=(10, 10))
-
-mun = read_state(year=2020)
-mun.plot(ax=ax, color='white', edgecolor='black')
-
-gdf = gpd.GeoDataFrame(
-    geolocations_df,
-    geometry=gpd.points_from_xy(geolocations_df['geolocation_lng'], geolocations_df['geolocation_lat'])
-    )
-gdf.plot(ax=ax, color='red', marker='o', markersize=5)
-
-st.pyplot(fig)
