@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
-from geobr import read_state
-import geopandas as gpd
 from transaction_func import TransactionFunc
 
 # OPTIONS
